@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:ital,wght@0,400;1,100&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,700;1,9..144,700&family=Montserrat:wght@500;700&family=Poppins:ital,wght@0,400;1,100&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: hsl(30, 38%, 92%);
+	padding: 30px 15px;
+}
+.img {
+	width: 100%;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.card {
+}
+.container {
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 15px;
+}
+.content {
+	padding: 25px;
+	gap: 15px;
+	display: flex;
+	flex-direction: column;
+}
+.Perfume {
+	font-size: 15px;
+}
+.title {
+	font-family: "Fraunces", serif;
+	font-size: 2rem;
+}
+.text {
+	font-family: "Fraunces", serif;
+	font-size: 17px;
+}
+.price {
+	display: flex;
+	justify-content: flex-start;
+	gap: 20px;
+	align-items: center;
+}
+.price_after {
+	color: hsl(158, 36%, 37%);
+	font-family: "Fraunces", serif;
+	font-weight: 600;
+	font-size: 25px;
+}
+.price_before {
+	font-family: "Fraunces", serif;
+	font-size: 14px;
+	text-decoration: line-through;
+}
+.add_to_cart {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	padding: 10px;
+	color: hsl(0, 0%, 100%);
+	background-color: hsl(158, 36%, 37%);
+	border: 0;
+	border-radius: 5px;
+}
+.btn_icon {
+	width: 12px;
+}
+.btn_text {
+	font-family: "Fraunces", serif;
+	font-size: 12px;
+	font-weight: 600;
+}
+@media (min-width: 1024px) {
+	body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 200px auto;
+	}
+	.container {
+		display: flex;
+		width: 40rem;
+		height: 30rem;
+	}
+	.img {
+		width: 20rem;
+		border-top-right-radius: 0;
+		border-bottom-left-radius: 15px;
+	}
+	.content {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+	}
+    .title{
+        font-size: 2.5rem;
+    }
+}
